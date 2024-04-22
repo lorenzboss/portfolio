@@ -84,6 +84,8 @@ const Copyright = styled.p`
   text-align: center;
 `;
 
+const currentYear = new Date().getFullYear();
+
 const Footer = () => {
   return (
     <FooterContainer>
@@ -110,7 +112,9 @@ const Footer = () => {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Rishav Chanda. All rights reserved.</Copyright>
+        <Copyright>
+          All rights reserved &copy;-{currentYear} Lorenz Boss
+        </Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
