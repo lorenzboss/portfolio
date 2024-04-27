@@ -79,6 +79,10 @@ const Title = styled.div`
   color: ${({ theme }) => theme.text_primary};
   line-height: 68px;
 
+  span {
+    color: ${({ theme }) => theme.primary};
+  }
+
   @media (max-width: 960px) {
     text-align: center;
   }
@@ -229,7 +233,9 @@ const Hero = () => {
             <HeroLeftContainer>
               <motion.div {...headTextAnimation}>
                 <Title>
-                  Hi, I am <br /> {Bio.name}
+                  Hi, I<span>'</span>m<br />
+                  {Bio.name}
+                  <span>.</span>
                 </Title>
                 <TextLoop>
                   I am a
