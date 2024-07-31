@@ -1,17 +1,15 @@
-import React from "react";
-import styled from "styled-components";
-import { Bio } from "../../data/constants";
-import Typewriter from "typewriter-effect";
-import HeroImg from "../../images/HeroImage.jpg";
-import HeroBgAnimation from "../HeroBgAnimation";
-import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
+import React from "react";
+import { Tilt } from "react-tilt";
+import styled from "styled-components";
+import Typewriter from "typewriter-effect";
+import { Bio } from "../../data/constants";
+import HeroImg from "../../images/HeroImage.jpg";
 import {
   headContainerAnimation,
   headContentAnimation,
   headTextAnimation,
 } from "../../utils/motion";
-import StarCanvas from "../canvas/Stars";
 
 const HeroContainer = styled.div`
   display: flex;
@@ -223,11 +221,6 @@ const Hero = () => {
   return (
     <div id="About">
       <HeroContainer>
-        <HeroBg>
-          <StarCanvas />
-          <HeroBgAnimation />
-        </HeroBg>
-
         <motion.div {...headContainerAnimation}>
           <HeroInnerContainer>
             <HeroLeftContainer>
