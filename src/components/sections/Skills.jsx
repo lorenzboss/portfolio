@@ -1,7 +1,7 @@
 import React from "react";
+import { Tilt } from "react-tilt";
 import styled from "styled-components";
 import { skills } from "../../data/constants";
-import { Tilt } from "react-tilt";
 
 const Container = styled.div`
 display: flex;
@@ -117,6 +117,8 @@ const SkillImage = styled.img`
   height: 24px;
 `;
 
+const years = new Date().getFullYear() - 2022;
+
 const Skills = () => {
   return (
     <Container id="Skills">
@@ -128,7 +130,7 @@ const Skills = () => {
           }}
         >
           Here are some of my skills on which I have been working on for the
-          past 3 years.
+          past {years} years.
         </Desc>
 
         <SkillsContainer>
