@@ -130,7 +130,7 @@ const MobileMenu = styled.ul`
   position: absolute;
   top: 80px;
   right: 0;
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
 
   transition: all 0.6s ease-in-out;
