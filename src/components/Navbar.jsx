@@ -172,6 +172,7 @@ const Navbar = () => {
           <NavLink href="#Experience">Experience</NavLink>
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
+          <NavLink href="#Contact">Contact</NavLink>
           <NavLink href={Bio.github}>GitHub Profile</NavLink>
         </NavItems>
 
@@ -191,6 +192,9 @@ const Navbar = () => {
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href="#Education">
               Education
+            </NavLink>
+            <NavLink onClick={() => setIsOpen(!isOpen)} href="#Contact">
+              Contact
             </NavLink>
             <NavLink onClick={() => setIsOpen(!isOpen)} href={Bio.github}>
               GitHub Profile

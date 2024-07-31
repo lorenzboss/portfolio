@@ -143,7 +143,7 @@ const Contact = () => {
   const [state, handleSubmit] = useForm("mdkngzop");
   if (state.succeeded) {
     return (
-      <Container>
+      <Container id="Contact">
         <Wrapper>
           <EarthCanvas />
           <Title>Contact</Title>
@@ -157,7 +157,7 @@ const Contact = () => {
   }
 
   return (
-    <Container>
+    <Container id="Contact">
       <Wrapper>
         <EarthCanvas />
         <Title>Contact</Title>
