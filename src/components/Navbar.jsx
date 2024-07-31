@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link as LinkR } from "react-router-dom";
 import styled, { useTheme } from "styled-components";
 import { Bio } from "../data/constants";
 
@@ -29,7 +28,7 @@ const NavbarContainer = styled.div`
   justify-content: space-between;
   font-size: 1rem;
 `;
-const NavLogo = styled(LinkR)`
+const NavLogo = styled.a`
   display: flex;
   align-items: center;
   padding: 0 6px;
@@ -148,7 +147,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo to="/">
+        <NavLogo href="#">
           <ColorText>&lt;</ColorText>
           {"Lorenz"}
           <div style={{ color: theme.primary, fontWeight: 1000, margin: 3 }}>
