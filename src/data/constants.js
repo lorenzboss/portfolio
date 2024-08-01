@@ -13,10 +13,10 @@ export const Bio = {
   github: "https://github.com/lorenzboss",
   resume:
     "https://drive.google.com/file/d/163gy82PJ-jFyOib5PKaeugoWXDu3O7ZI/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  linkedin:
+    "https://www.linkedin.com/in/lorenz-boss-229b06309?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+  twitter: "https://twitter.com/",
+  insta: "https://www.instagram.com/",
 };
 
 export const skills = [

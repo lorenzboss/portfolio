@@ -1,4 +1,3 @@
-import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
@@ -91,17 +90,7 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrapper>
         <Logo>Lorenz Boss</Logo>
-        <Nav>
-          <NavLink href="#About">About</NavLink>
-          <NavLink href="#Skills">Skills</NavLink>
-          <NavLink href="#Experience">Experience</NavLink>
-          <NavLink href="#Projects">Projects</NavLink>
-          <NavLink href="#Education">Education</NavLink>
-        </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display">
-            <FacebookIcon />
-          </SocialMediaIcon>
           <SocialMediaIcon href={Bio.twitter} target="display">
             <TwitterIcon />
           </SocialMediaIcon>
