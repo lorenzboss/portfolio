@@ -1,6 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
+import styled from "styled-components";
 
 const Top = styled.div`
   width: 100%;
@@ -109,7 +109,7 @@ const EducationCard = ({ education }) => {
         </Body>
       </Top>
       <Grade>
-        <b>Grade :</b>
+        <b>Grade:</b>{" "}
         {education.grade}
       </Grade>
       <Description>
