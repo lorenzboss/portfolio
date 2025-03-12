@@ -133,7 +133,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             active={toggle === "application"}
             onClick={() => setToggle("application")}
           >
-            STANDALONE APPLICATION'S
+            APPLICATION'S
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
