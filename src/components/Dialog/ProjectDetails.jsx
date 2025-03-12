@@ -2,6 +2,7 @@ import { CloseRounded, GitHub, LinkedIn } from "@mui/icons-material";
 import { Modal } from "@mui/material";
 import React from "react";
 import styled from "styled-components";
+import { members } from "../../data/constants";
 
 const Container = styled.div`
   width: 100%;
@@ -211,19 +212,19 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
             <>
               <Label>Members</Label>
               <Members>
-                {project?.member.map((member) => (
+                {project?.member.map((memberId) => (
                   <Member>
-                    <MemberImage src={member.img} />
-                    <MemberName>{member.name}</MemberName>
+                    <MemberImage src={members[memberId].img} />
+                    <MemberName>{members[memberId].name}</MemberName>
                     <a
-                      href={member.github}
+                      href={members[memberId].github}
                       target="new"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
                       <GitHub />
                     </a>
                     <a
-                      href={member.linkedin}
+                      href={members[memberId].linkedin}
                       target="new"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >

@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { members } from "../../data/constants";
 
 const Card = styled.div`
   width: 330px;
@@ -118,8 +119,8 @@ const ProjectCard = ({ project, setOpenModal }) => {
         <Description>{project.description}</Description>
       </Details>
       <Members>
-        {project.member?.map((member) => (
-          <Avatar src={member.img} />
+        {project.member?.map((memberId) => (
+          <Avatar src={members[memberId].img} />
         ))}
       </Members>
     </Card>
