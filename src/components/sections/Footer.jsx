@@ -1,6 +1,4 @@
-import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import TwitterIcon from "@mui/icons-material/Twitter";
+import { GitHub, LinkedIn } from "@mui/icons-material";
 import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/bio";
@@ -91,14 +89,11 @@ const Footer = () => {
       <FooterWrapper>
         <Logo>Lorenz Boss</Logo>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.twitter} target="display">
-            <TwitterIcon />
+          <SocialMediaIcon href={Bio.github} target="display">
+            <GitHub />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
-            <LinkedInIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
-            <InstagramIcon />
+            <LinkedIn />
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
