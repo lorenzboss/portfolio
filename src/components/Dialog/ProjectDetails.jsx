@@ -138,7 +138,8 @@ const MemberImage = styled.img`
 const MemberName = styled.div`
   font-size: 16px;
   font-weight: 500;
-  width: 200px;
+  flex: 1;
+  max-width: 200px;
   color: ${({ theme }) => theme.text_primary};
   @media only screen and (max-width: 600px) {
     font-size: 14px;
