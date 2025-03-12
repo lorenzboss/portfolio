@@ -1,6 +1,6 @@
 import React from "react";
-import styled from "styled-components";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
+import styled from "styled-components";
 
 const Top = styled.div`
   width: 100%;
@@ -37,23 +37,6 @@ const Company = styled.div`
   font-weight: 500px;
   color: ${({ theme }) => theme.text_secondary + 99};
 
-  @media only screen and (max-width: 768px) {
-    font-size: 12px;
-  }
-`;
-const Date = styled.div`
-  font-size: 12px;
-  font-weight: 400px;
-  color: ${({ theme }) => theme.text_secondary + 80};
-
-  @media only screen and (max-width: 768px) {
-    font-size: 10px;
-  }
-`;
-const Grade = styled.div`
-  font-size: 14px;
-  font-weight: 500;
-  color: ${({ theme }) => theme.text_secondary + 99};
   @media only screen and (max-width: 768px) {
     font-size: 12px;
   }
@@ -128,7 +111,6 @@ const ExperienceCard = ({ experience }) => {
         <Body>
           <Role>{experience.role}</Role>
           <Company>{experience.company}</Company>
-          <Date>{experience.date}</Date>
         </Body>
       </Top>
       <Description>
