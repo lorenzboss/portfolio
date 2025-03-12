@@ -289,28 +289,25 @@ export const experiences = [
 
 export const education = [
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-    school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-    date: "Oct 2021 - Sep 2025",
-    grade: "8.41 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Flag_of_Canton_of_Basel.svg/1200px-Flag_of_Canton_of_Basel.svg.png",
+    school: "Secondary School Holbein",
+    date: "Aug 2019 - Jul 2022",
+    desc: "I graduated from Holbein Secondary School at the highest level (Niveau P) with a focus on STEM subjects, building a strong foundation in mathematics, science, and technology.",
+    grade: "5.3 (Swiss grading scale: 1–6, best: 6)",
   },
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2019 - Apr 2025",
-    grade: "88.2%",
-    desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-    degree: "ISC(XII), Science with Computer",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Canton_of_Basel-Landschaft.svg/1200px-Flag_of_Canton_of_Basel-Landschaft.svg.png",
+    school: "Vocational school BBZBL",
+    date: "Aug 2022 - Jul 2026",
+    desc: "I am currently completing an apprenticeship as an IT specialist in application development (EFZ) at BBZBL Muttenz, where I am gaining hands-on experience in software development and deepening my technical skills.",
+    grade: "Not yet determined",
   },
   {
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-    school: "Methodist School, Dankuni",
-    date: "Apr 2017 - Apr 2019",
-    grade: "92.3%",
-    desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-    degree: "ICSC(X), Science with Computer",
+    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Canton_of_Basel-Landschaft.svg/1200px-Flag_of_Canton_of_Basel-Landschaft.svg.png",
+    school: "Vocational baccalaureate BBZBL",
+    date: "Aug 2022 - Jul 2026",
+    desc: "I am also pursuing the vocational baccalaureate in Muttenz with a focus on technology. This additional qualification will provide me with the opportunity to attend a university of applied sciences and further expand my technical expertise.",
+    grade: "Not yet determined",
   },
 ];
 
