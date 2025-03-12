@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.1",
-  "homepage": "https://me.lorenzboss.com",
+  "homepage": "https://lorenzboss.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
