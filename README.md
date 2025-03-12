@@ -1,6 +1,6 @@
 # Lorenz Boss Portfolio
 
-Welcome to my portfolio! 
+Welcome to my portfolio!
 [Live Website](https://lorenzboss.com)
 
 ## Technologies Used

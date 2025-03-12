@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import styled, { useTheme } from "styled-components";
 import { Bio } from "../data/bio";
 
-
 const Nav = styled.div`
   background-color: ${({ theme }) => theme.bg};
   height: 80px;

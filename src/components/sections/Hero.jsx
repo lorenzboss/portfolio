@@ -10,7 +10,6 @@ import {
   headTextAnimation,
 } from "../../utils/motion";
 
-
 const HeroContainer = styled.div`
   display: flex;
   justify-content: center;
