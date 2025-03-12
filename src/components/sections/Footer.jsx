@@ -3,7 +3,8 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import React from "react";
 import styled from "styled-components";
-import { Bio } from "../../data/constants";
+import { Bio } from "../../data/bio";
+
 
 const FooterContainer = styled.div`
   width: 100%;

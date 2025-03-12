@@ -3,13 +3,14 @@ import React from "react";
 import { Tilt } from "react-tilt";
 import styled from "styled-components";
 import Typewriter from "typewriter-effect";
-import { Bio } from "../../data/constants";
+import { Bio } from "../../data/bio";
 import HeroImg from "../../images/HeroImage.jpg";
 import {
   headContainerAnimation,
   headContentAnimation,
   headTextAnimation,
 } from "../../utils/motion";
+
 
 const HeroContainer = styled.div`
   display: flex;
@@ -230,7 +231,7 @@ const Hero = () => {
                   <span>.</span>
                 </Title>
                 <TextLoop>
-                  I am a
+                  I am
                   <Span>
                     <Typewriter
                       options={{

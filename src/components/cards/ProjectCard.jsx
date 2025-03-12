@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { members } from "../../data/constants";
+import { members } from "../../data/members";
 
 const Card = styled.div`
   width: 330px;

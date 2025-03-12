@@ -1,8 +1,8 @@
 import React from "react";
-import styled from "styled-components";
-import { experiences } from "../../data/constants";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
+import styled from "styled-components";
+import { experiences } from "../../data/experiences";
 import ExperienceCard from "../cards/ExperienceCard";
 
 const Container = styled.div`
