@@ -10,7 +10,7 @@ export const education = [
     img: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Canton_of_Basel-Landschaft.svg/1200px-Flag_of_Canton_of_Basel-Landschaft.svg.png",
     school: "Vocational school BBZBL",
     date: "Aug 2022 - Jul 2026",
-    desc: "I am currently completing an apprenticeship as an IT specialist in application development (EFZ) at BBZBL Muttenz, where I am gaining hands-on experience in software development and deepening my technical skills.",
+    desc: "Currently I'm completing an apprenticeship as an IT specialist in application development (EFZ) at BBZBL Muttenz, where I am gaining hands-on experience in software development and deepening my technical skills.",
     grade: "Not yet determined",
   },
   {
