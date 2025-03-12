@@ -99,4 +99,15 @@ export const projects = [
     github: "https://github.com/lorenzboss/ar_pixelPainter",
     member: [0],
   },
+  {
+    title: "Harry Potter Wiki",
+    date: "Jun 2023 - Apr 2024",
+    description:
+      "The first project I ever created was a Harry Potter wiki featuring the most important characters. The website was built entirely without a framework, using only HTML, CSS, and JavaScript, and was designed to be fully responsive. Later, I deployed and published the site using GitHub Pages.",
+    image: "/images/projects/harry-potter-wiki.png",
+    tags: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+    category: "web app",
+    github: "https://github.com/lorenzboss/m293_wiki",
+    member: [0],
+  },
 ];
