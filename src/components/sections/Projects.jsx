@@ -119,21 +119,21 @@ const Projects = ({ openModal, setOpenModal }) => {
             active={toggle === "web app"}
             onClick={() => setToggle("web app")}
           >
-            WEB APP"S
+            WEB APP'S
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "android app"}
-            onClick={() => setToggle("android app")}
+            active={toggle === "mobile app"}
+            onClick={() => setToggle("mobile app")}
           >
-            ANDROID APP'S
+            MOBILE APP'S
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "machine learning"}
-            onClick={() => setToggle("machine learning")}
+            active={toggle === "application"}
+            onClick={() => setToggle("application")}
           >
-            MACHINE LEARNING
+            STANDALONE APPLICATION'S
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
