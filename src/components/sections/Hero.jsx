@@ -4,7 +4,6 @@ import { Tilt } from "react-tilt";
 import styled from "styled-components";
 import Typewriter from "typewriter-effect";
 import { Bio } from "../../data/bio";
-import HeroImg from "../../images/HeroImage.jpg";
 import {
   headContainerAnimation,
   headContentAnimation,
@@ -255,7 +254,7 @@ const Hero = () => {
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
                 <Tilt>
-                  <Img src={HeroImg} alt="Rishav Chanda" />
+                  <Img src="/HeroImage.jpg" alt="Lorenz Boss" />
                 </Tilt>
               </motion.div>
             </HeroRightContainer>
