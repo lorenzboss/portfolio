@@ -108,6 +108,7 @@ export const projects = [
     tags: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
     category: "web app",
     github: "https://github.com/lorenzboss/m293_wiki",
+    webapp: "https://wiki.lorenzboss.com",
     member: [0],
   },
 ];
