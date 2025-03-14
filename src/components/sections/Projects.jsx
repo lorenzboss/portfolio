@@ -73,8 +73,8 @@ const ToggleButton = styled.div`
     padding: 6px 8px;
     border-radius: 4px;
   }
-  ${({ active, theme }) =>
-    active &&
+  ${({ $active, theme }) =>
+    $active &&
     `
   background:  ${theme.primary + 20};
   `}
@@ -109,28 +109,28 @@ const Projects = ({ openModal, setOpenModal }) => {
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
-            active={toggle === "all"}
+            $active={toggle === "all"}
             onClick={() => setToggle("all")}
           >
             ALL
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "web app"}
+            $active={toggle === "web app"}
             onClick={() => setToggle("web app")}
           >
             WEB APP'S
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "mobile app"}
+            $active={toggle === "mobile app"}
             onClick={() => setToggle("mobile app")}
           >
             MOBILE APP'S
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "application"}
+            $active={toggle === "application"}
             onClick={() => setToggle("application")}
           >
             APPLICATION'S
