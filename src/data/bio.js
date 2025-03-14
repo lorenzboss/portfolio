@@ -9,9 +9,7 @@ export const Bio = {
     "a Student",
   ],
   description:
-    "I live in Basel, Switzerland, and I am currently completing an apprenticeship as an IT specialist at Coop, the country's largest retailer. I am motivated, dedicated, and always ready to take on new challenges. I am passionate about learning and continuously improving myself, striving for excellence in everything I do. My interests include sports, technology, and computer science. In the future, I plan to expand my knowledge further and pursue a university degree.
-
-",
+    "I am a motivated and dedicated IT developer apprentice at Coop, Switzerland's largest retailer. Always eager to take on new challenges, I am passionate about learning and improving my skills. My interests include technology, computer science and sports. In the future, I plan to expand my knowledge further and pursue a university degree. I currently live in Basel, Switzerland.",
   resume:
     "https://drive.google.com/file/d/163gy82PJ-jFyOib5PKaeugoWXDu3O7ZI/view?usp=sharing",
   github: "https://github.com/lorenzboss",
