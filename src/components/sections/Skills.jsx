@@ -134,15 +134,20 @@ const Skills = () => {
         </Desc>
 
         <SkillsContainer>
-          {skills.map((skill, index) => (
-            <Tilt key={`skill-${index}`}>
+          {skills.map((skill, skillIndex) => (
+            <Tilt key={`skill-${skillIndex}`}>
               <Skill>
                 <SkillTitle>{skill.title}</SkillTitle>
                 <SkillList>
-                  {skill.skills.map((item, index_x) => (
-                    <SkillItem key={`skill-x-${index_x}`}>
-                      <SkillImage src={item.image} alt={item.name} />
-                      {item.name}
+                  {skill.skills.map((skillItem, skillItemIndex) => (
+                    <SkillItem key={`skill-x-${skillItemIndex}`}>
+                      <SkillImage
+                        src={`/images/skills/${skillItem
+                          .replace(/[. ]/g, "")
+                          .toLowerCase()}.svg`}
+                        alt={skillItem}
+                      />
+                      {skillItem}
                     </SkillItem>
                   ))}
                 </SkillList>
