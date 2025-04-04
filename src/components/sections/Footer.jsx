@@ -79,7 +79,7 @@ const Footer = () => {
         </SocialMediaIcons>
         <Copyright>
           Design based on work by{" "}
-          <Link target="_blank" href="https://github.com/rishavchanda">
+          <Link target="new" href="https://github.com/rishavchanda">
             Rishav Chanda
           </Link>{" "}
           | {currentYear} Lorenz Boss

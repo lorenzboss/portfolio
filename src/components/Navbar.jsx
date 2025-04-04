@@ -117,7 +117,9 @@ const Navbar = () => {
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
           <NavLink href="#Contact">Contact</NavLink>
-          <NavLink href={Bio.github}>GitHub Profile</NavLink>
+          <NavLink target="new" href={Bio.github}>
+            GitHub Profile
+          </NavLink>
         </NavItems>
 
         {isOpen && (
