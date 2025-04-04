@@ -9,7 +9,7 @@ export const projects = [
     category: "web app",
     github: "https://github.com/BBZ-BL-IT/m426-project-r-place",
     webapp: "https://rplace.me/",
-    member: [0, 2, 3, 4],
+    member: [0, 2],
   },
   {
     title: "Gym Tracker",
@@ -41,7 +41,7 @@ export const projects = [
     image: "/images/projects/pod-controller.png",
     tags: ["TypeScript", "Angular", "Java", "Spring Boot", "Maven", "Keycloak"],
     category: "web app",
-    github: "https://github.com/lorenzboss/m294_podcastmanager",
+    github: "https://github.com/lorenzboss/m183_podcastmanager_frontend",
     member: [0],
   },
   {
