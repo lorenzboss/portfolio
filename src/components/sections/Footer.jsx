@@ -79,8 +79,10 @@ const Footer = () => {
         </SocialMediaIcons>
         <Copyright>
           Design based on work by{" "}
-          <Link href="https://github.com/rishavchanda">Rishav Chanda</Link> |{" "}
-          {currentYear} Lorenz Boss
+          <Link target="_blank" href="https://github.com/rishavchanda">
+            Rishav Chanda
+          </Link>{" "}
+          | {currentYear} Lorenz Boss
         </Copyright>
       </FooterWrapper>
     </FooterContainer>
