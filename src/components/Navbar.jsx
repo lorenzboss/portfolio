@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styled, { useTheme } from "styled-components";
+import styled from "styled-components";
 import { Bio } from "../data/bio";
 
 const Nav = styled.div`
@@ -97,7 +97,6 @@ const MobileMenu = styled.ul`
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const theme = useTheme();
   return (
     <Nav>
       <NavbarContainer>
