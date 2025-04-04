@@ -46,9 +46,20 @@ const SocialMediaIcon = styled.a`
 
 const Copyright = styled.p`
   margin-top: 1.5rem;
-  font-size: 0.9rem;
+  font-size: 1rem;
   color: ${({ theme }) => theme.soft2};
   text-align: center;
+`;
+
+const Link = styled.a`
+  color: ${({ theme }) => theme.text_primary};
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
 `;
 
 const currentYear = new Date().getFullYear();
@@ -67,7 +78,9 @@ const Footer = () => {
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          All rights reserved &copy;-{currentYear} Lorenz Boss
+          Design based on work by{" "}
+          <Link href="https://github.com/rishavchanda">Rishav Chanda</Link> |{" "}
+          {currentYear} Lorenz Boss
         </Copyright>
       </FooterWrapper>
     </FooterContainer>

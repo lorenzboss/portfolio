@@ -14,10 +14,6 @@ const Nav = styled.div`
   z-index: 10;
   color: white;
 `;
-const ColorText = styled.div`
-  color: ${({ theme }) => theme.primary};
-  font-size: 32px;
-`;
 
 const NavbarContainer = styled.div`
   width: 100%;
@@ -28,14 +24,14 @@ const NavbarContainer = styled.div`
   justify-content: space-between;
   font-size: 1rem;
 `;
+
 const NavLogo = styled.a`
-  display: flex;
-  align-items: center;
   padding: 0 6px;
-  font-weight: 500;
-  font-size: 18px;
   text-decoration: none;
-  color: inherit;
+  font-weight: 600;
+  font-size: 20px;
+  white-space: nowrap;
+  color: ${({ theme }) => theme.primary};
 `;
 
 const NavItems = styled.ul`
@@ -105,16 +101,7 @@ const Navbar = () => {
   return (
     <Nav>
       <NavbarContainer>
-        <NavLogo href="#">
-          <ColorText>&lt;</ColorText>
-          {"Lorenz"}
-          <div style={{ color: theme.primary, fontWeight: 1000, margin: 3 }}>
-            /
-          </div>
-          {"Boss"}
-          <ColorText>&gt;</ColorText>
-        </NavLogo>
-
+        <NavLogo href="#">Lorenz Boss</NavLogo>
         <MobileIcon onClick={() => setIsOpen(!isOpen)}>
           <div id="nav-icon1" className={isOpen ? "open" : ""}>
             <span></span>
