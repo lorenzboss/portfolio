@@ -50,9 +50,17 @@ export const experiences = [
   {
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo7qd2enTuYZ-E56-fAgFYSe2i_3ytjnMlw&s",
     role: "Regional Championships Web Development ",
-    company: "BBZBL",
+    company: "BBZBL | ICT Berufsbildung",
     date: "Mar 2025",
-    desc: "I participated in the regional championships, where I had the opportunity to showcase my web development skills.",
-    skills: ["Web Development", "CSS Selectors"],
+    desc: "I competed in the regional championships, where I showcased my web development skills. I placed 12th out of 51 participants and qualified for ICTskills2025, which will take place in Bern this September.",
+    skills: ["Node.js", "Express", "CSS Selectors"],
+  },
+  {
+    img: "https://media.licdn.com/dms/image/v2/C4E0BAQHLt5bSBiQRBw/company-logo_200_200/company-logo_200_200/0/1519911708999?e=1751500800&v=beta&t=2k5oFQyMpwVYryq4qpzghTloGcrqAUDGX2pMaaKmH4A",
+    role: "ICTskills2025 Web Development",
+    company: "SwissSkills | ICT Berufsbildung",
+    date: "Sep 2025",
+    desc: "I'm excited to have qualified for ICTskills2025 this September, where I can put my web development experience to the test!",
+    skills: ["Web Development"],
   },
 ];
