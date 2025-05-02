@@ -8,7 +8,7 @@ export const projects = [
     tags: ["Next.js", "Supabase", "Tailwind CSS", "Node.js"],
     category: "web app",
     github: "https://github.com/BBZ-BL-IT/m426-project-r-place",
-    webapp: "https://rplace.me/",
+    webapp: "https://rplace-app.vercel.app/",
     member: [0, 2],
   },
   {
