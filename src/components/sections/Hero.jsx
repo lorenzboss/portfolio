@@ -1,5 +1,4 @@
 import { motion } from "framer-motion";
-import React from "react";
 import { Tilt } from "react-tilt";
 import styled from "styled-components";
 import Typewriter from "typewriter-effect";
@@ -130,51 +129,41 @@ const SubTitle = styled.div`
   }
 `;
 
-const ResumeButton = styled.a`
-  -webkit-appearance: button;
-  -moz-appearance: button;
-  appearance: button;
-  text-decoration: none;
-
-  width: 95%;
-  max-width: 300px;
-  text-align: center;
+const ResumeButton = styled.div`
+  width: 300px;
   padding: 16px 0;
-
-  background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -moz-linear-gradient(
-    225deg,
-    hsla(271, 100%, 50%, 1) 0%,
-    hsla(294, 100%, 50%, 1) 100%
-  );
-  background: -webkit-linear-gradient(
     225deg,
     hsla(271, 100%, 50%, 1) 0%,
     hsla(294, 100%, 50%, 1) 100%
   );
   box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
   border-radius: 50px;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.05);
+    filter: brightness(1.1);
+  }
+
+  @media (max-width: 640px) {
+    padding: 12px 0;
+  }
+`;
+
+const ResumeButtonLink = styled.a`
+  text-decoration: none;
+  color: white;
   font-weight: 600;
   font-size: 20px;
+  display: inline-block;
+  width: 100%;
 
-     &:hover {
-        transform: scale(1.05);
-    transition: all 0.4s ease-in-out;
-    box-shadow:  20px 20px 60px #1F2634,
-    filter: brightness(1);
-    }    
-    
-    
-    @media (max-width: 640px) {
-        padding: 12px 0;
-        font-size: 18px;
-    } 
-    color: white;
+  @media (max-width: 640px) {
+    font-size: 18px;
+  }
 `;
 
 const Img = styled.img`
@@ -222,8 +211,10 @@ const Hero = () => {
                 <SubTitle>{Bio.description}</SubTitle>
               </motion.div>
 
-              <ResumeButton href={Bio.resume} target="new">
-                Check Resume
+              <ResumeButton>
+                <ResumeButtonLink href={Bio.resume} target="new">
+                  Check Resume
+                </ResumeButtonLink>
               </ResumeButton>
             </HeroLeftContainer>
             <HeroRightContainer>
