@@ -1,4 +1,3 @@
-import React from "react";
 import styled from "styled-components";
 import { members } from "../../data/members";
 
@@ -91,6 +90,7 @@ const Members = styled.div`
 const Avatar = styled.img`
   width: 38px;
   height: 38px;
+  object-fit: cover;
   border-radius: 50%;
   margin-left: -10px;
   background-color: ${({ theme }) => theme.white};
