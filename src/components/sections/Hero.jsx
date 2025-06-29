@@ -129,7 +129,7 @@ const SubTitle = styled.div`
   }
 `;
 
-const ResumeButton = styled.div`
+const ContactMeButton = styled.div`
   width: 300px;
   padding: 16px 0;
   background: linear-gradient(
@@ -153,7 +153,7 @@ const ResumeButton = styled.div`
   }
 `;
 
-const ResumeButtonLink = styled.a`
+const ContactMeButtonLink = styled.a`
   text-decoration: none;
   color: white;
   font-weight: 600;
@@ -211,11 +211,11 @@ const Hero = () => {
                 <SubTitle>{Bio.description}</SubTitle>
               </motion.div>
 
-              <ResumeButton>
-                <ResumeButtonLink href={Bio.resume} target="new">
-                  Check Resume
-                </ResumeButtonLink>
-              </ResumeButton>
+              <ContactMeButton>
+                <ContactMeButtonLink href="#Contact" target="new">
+                  Get in touch
+                </ContactMeButtonLink>
+              </ContactMeButton>
             </HeroLeftContainer>
             <HeroRightContainer>
               <motion.div {...headContentAnimation}>
