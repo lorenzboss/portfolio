@@ -1,5 +1,16 @@
 export const projects = [
   {
+    title: "Rate Mate",
+    date: "May 2025 - Jun 2025",
+    description:
+      "We built Rate Mate (R8M8), a simple web app where employees rate each other based on criteria set by their team lead. Reviews can include comments, be anonymous, and give team leads a clear view of all feedback.",
+    image: "/images/projects/rate-mate.jpeg",
+    tags: ["Next.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
+    category: "web app",
+    github: "https://github.com/lorenzboss/m306_rate-mate",
+    member: [0, 2, 5],
+  },
+  {
     title: "r/place",
     date: "Jun 2024 - Jul 2024",
     description:
@@ -9,7 +20,7 @@ export const projects = [
     category: "web app",
     github: "https://github.com/BBZ-BL-IT/m426-project-r-place",
     webapp: "https://rplace-app.vercel.app/",
-    member: [0, 2],
+    member: [0, 2, 3, 4],
   },
   {
     title: "Gym Tracker",
@@ -38,7 +49,7 @@ export const projects = [
     date: "Apr 2024 - May 2024",
     description:
       "I developed a CRUD web application using Angular, Spring Boot, Java, and Keycloak. The app allows users to create podcasts, artists, and topics, while also providing user management and a role-based access control system.",
-    image: "/images/projects/pod-controller.png",
+    image: "/images/projects/pod-controller.jpeg",
     tags: ["TypeScript", "Angular", "Java", "Spring Boot", "Maven", "Keycloak"],
     category: "web app",
     github: "https://github.com/lorenzboss/m183_podcastmanager_frontend",
@@ -49,7 +60,7 @@ export const projects = [
     date: "Oct 2024",
     description:
       "This project analyzes data from 335 real estate sales in Basel-Landschaft (2011–2023). The logic was implemented both imperatively and functionally to compare the two approaches. Despite being a console app, it offers good user-friendliness and simple controls.",
-    image: "/images/projects/properties-comparator.png",
+    image: "/images/projects/properties-comparator.jpeg",
     tags: ["Java", "JSON", "GSON", "Functional programming"],
     category: "application",
     github: "https://github.com/lorenzboss/m323_immobilien-vergleich",
@@ -60,7 +71,7 @@ export const projects = [
     date: "Dec 2024 - Jan 2025",
     description:
       "This project analyzes and compares the performance and memory usage of popular sorting algorithms in Python, including Bubble Sort, Quick Sort, and Cocktail Shaker Sort. It tests execution time on random lists and tracks memory usage during sorting. Additionally, We implemented multiple GitHub Actions and CI workflows for automated testing.",
-    image: "/images/projects/python-algorithms-performance.png",
+    image: "/images/projects/python-algorithms-performance.jpeg",
     tags: ["Python", "Github Actions", "CI"],
     category: "application",
     github: "https://github.com/lorenzboss/m450_LB3-algorithms-performance",
@@ -104,7 +115,7 @@ export const projects = [
     date: "Jun 2023 - Apr 2024",
     description:
       "The first project I ever created was a Harry Potter wiki featuring the most important characters. The website was built entirely without a framework, using only HTML, CSS, and JavaScript, and was designed to be fully responsive. Later, I deployed and published the site using GitHub Pages.",
-    image: "/images/projects/harry-potter-wiki.png",
+    image: "/images/projects/harry-potter-wiki.jpeg",
     tags: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
     category: "web app",
     github: "https://github.com/lorenzboss/m293_wiki",
