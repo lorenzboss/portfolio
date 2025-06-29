@@ -212,7 +212,7 @@ const Hero = () => {
               </motion.div>
 
               <ContactMeButton>
-                <ContactMeButtonLink href="#Contact" target="new">
+                <ContactMeButtonLink href="#Contact">
                   Get in touch
                 </ContactMeButtonLink>
               </ContactMeButton>
