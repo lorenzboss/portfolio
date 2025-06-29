@@ -1,6 +1,6 @@
 export const experiences = [
   {
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqwm7ETaAdtWZWPgsw7-8YU_vzmSaP98UY4w&s",
+    img: "/images/experiences/baselnetgroup.png",
     role: "Systems Engineer (Apprentice)",
     company: "baselnetgroup",
     date: "Aug 2022 - Mar 2023",
@@ -8,7 +8,7 @@ export const experiences = [
     skills: ["Technical Support", "Active Directory", "System Administration"],
   },
   {
-    img: "https://yt3.googleusercontent.com/VoxUO6jmEGg_Pjjjfg_5KIgTHldThXKrx6wOExW6D_0nXZ-_F_INh3Rj2JQ-lj6RLpCrmI6XhJQ=s900-c-k-c0x00ffffff-no-rj",
+    img: "/images/experiences/coop.jpeg",
     role: "Systems Engineer (Apprentice)",
     company: "Coop Genossenschaft",
     date: "Mar 2023 - Aug 2023",
@@ -16,7 +16,7 @@ export const experiences = [
     skills: ["Technical Support", "Customer Service", "Hardware Installation"],
   },
   {
-    img: "https://yt3.googleusercontent.com/VoxUO6jmEGg_Pjjjfg_5KIgTHldThXKrx6wOExW6D_0nXZ-_F_INh3Rj2JQ-lj6RLpCrmI6XhJQ=s900-c-k-c0x00ffffff-no-rj",
+    img: "/images/experiences/coop.jpeg",
     role: "Full Stack Developer (Apprentice)",
     company: "Coop Genossenschaft",
     date: "Aug 2023 - Aug 2024",
@@ -24,7 +24,7 @@ export const experiences = [
     skills: ["Java", "Spring Framework", "Typescript", "Angular", "Node JS"],
   },
   {
-    img: "https://yt3.googleusercontent.com/ytc/AIdro_ku2mhxtNz34dbjJKyKu1TF6t_ta3re7xnIrmdRFGujew=s900-c-k-c0x00ffffff-no-rj",
+    img: "/images/experiences/berner-fachhochschule.jpeg",
     role: "AppRun Contest",
     company: "Berner Fachhochschule",
     date: "Apr 2024 - Jun 2024",
@@ -32,7 +32,7 @@ export const experiences = [
     skills: ["Kotlin", "Jetpack Compose", "Android Studio"],
   },
   {
-    img: "https://yt3.googleusercontent.com/VoxUO6jmEGg_Pjjjfg_5KIgTHldThXKrx6wOExW6D_0nXZ-_F_INh3Rj2JQ-lj6RLpCrmI6XhJQ=s900-c-k-c0x00ffffff-no-rj",
+    img: "/images/experiences/coop.jpeg",
     role: "Frontend Developer (Apprentice)",
     company: "Coop Genossenschaft",
     date: "Aug 2024 - Feb 2025",
@@ -40,7 +40,7 @@ export const experiences = [
     skills: ["React", "Next.js", "Tailwind CSS"],
   },
   {
-    img: "https://yt3.googleusercontent.com/VoxUO6jmEGg_Pjjjfg_5KIgTHldThXKrx6wOExW6D_0nXZ-_F_INh3Rj2JQ-lj6RLpCrmI6XhJQ=s900-c-k-c0x00ffffff-no-rj",
+    img: "/images/experiences/coop.jpeg",
     role: "SAP Developer (Apprentice)",
     company: "Coop Genossenschaft",
     date: "Feb 2025 - Aug 2025",
@@ -48,7 +48,7 @@ export const experiences = [
     skills: ["SAP", "ABAP"],
   },
   {
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHo7qd2enTuYZ-E56-fAgFYSe2i_3ytjnMlw&s",
+    img: "/images/experiences/bbzbl.png",
     role: "Regional Championships Web Development ",
     company: "BBZBL | ICT Berufsbildung",
     date: "Mar 2025",
@@ -56,7 +56,7 @@ export const experiences = [
     skills: ["Node.js", "Express", "CSS Selectors"],
   },
   {
-    img: "https://media.licdn.com/dms/image/v2/C4E0BAQHLt5bSBiQRBw/company-logo_200_200/company-logo_200_200/0/1519911708999?e=1751500800&v=beta&t=2k5oFQyMpwVYryq4qpzghTloGcrqAUDGX2pMaaKmH4A",
+    img: "/images/experiences/ict-berufsbildung.png",
     role: "ICTskills2025 Web Development",
     company: "SwissSkills | ICT Berufsbildung",
     date: "Sep 2025",
