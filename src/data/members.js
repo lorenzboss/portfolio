@@ -34,4 +34,11 @@ export const members = [
     linkedin: "https://www.linkedin.com/in/tobias-topp-95b27b281/",
     github: "https://github.com/ToppTobi",
   },
+  {
+    id: 5,
+    name: "Seth Schmutz",
+    img: "/images/members/avatar.jpeg",
+    linkedin: "https://www.linkedin.com/in/seth-schmutz-294ba025a/",
+    github: "https://github.com/BrickiBulli",
+  },
 ];
