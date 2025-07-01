@@ -1,6 +1,5 @@
 import { CloseRounded, GitHub, LinkedIn } from "@mui/icons-material";
 import { Modal } from "@mui/material";
-import React from "react";
 import styled from "styled-components";
 import { members } from "../../data/members";
 
@@ -222,14 +221,14 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
                     <MemberName>{members[memberId].name}</MemberName>
                     <a
                       href={members[memberId].github}
-                      target="new"
+                      target="_blank"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
                       <GitHub />
                     </a>
                     <a
                       href={members[memberId].linkedin}
-                      target="new"
+                      target="_blank"
                       style={{ textDecoration: "none", color: "inherit" }}
                     >
                       <LinkedIn />
@@ -240,11 +239,11 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
             </>
           )}
           <ButtonGroup>
-            <Button dull href={project?.github} target="new">
+            <Button dull href={project?.github} target="_blank">
               View Code
             </Button>
             {project?.webapp && (
-              <Button href={project?.webapp} target="new">
+              <Button href={project?.webapp} target="_blank">
                 View Live App
               </Button>
             )}

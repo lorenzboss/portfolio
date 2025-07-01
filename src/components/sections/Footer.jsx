@@ -1,5 +1,4 @@
 import { GitHub, LinkedIn } from "@mui/icons-material";
-import React from "react";
 import styled from "styled-components";
 import { Bio } from "../../data/bio";
 
@@ -79,7 +78,7 @@ const Footer = () => {
         </SocialMediaIcons>
         <Copyright>
           Design based on work by{" "}
-          <Link target="new" href="https://github.com/rishavchanda">
+          <Link target="_blank" href="https://github.com/rishavchanda">
             Rishav Chanda
           </Link>{" "}
           | {currentYear} Lorenz Boss

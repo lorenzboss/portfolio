@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import { Bio } from "../data/bio";
 
@@ -116,7 +116,7 @@ const Navbar = () => {
           <NavLink href="#Projects">Projects</NavLink>
           <NavLink href="#Education">Education</NavLink>
           <NavLink href="#Contact">Contact</NavLink>
-          <NavLink target="new" href={Bio.github}>
+          <NavLink target="_blank" href={Bio.github}>
             GitHub Profile
           </NavLink>
         </NavItems>
