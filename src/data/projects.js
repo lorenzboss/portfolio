@@ -8,6 +8,7 @@ export const projects = [
     tags: ["Next.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
     category: "web app",
     github: "https://github.com/lorenzboss/m306_rate-mate",
+    webapp: "https://ratemate.lorenzboss.com/",
     member: [0, 2, 5],
   },
   {
@@ -19,7 +20,7 @@ export const projects = [
     tags: ["Next.js", "Supabase", "Tailwind CSS", "Node.js"],
     category: "web app",
     github: "https://github.com/BBZ-BL-IT/m426-project-r-place",
-    webapp: "https://rplace-app.vercel.app/",
+    webapp: "https://rplace.lorenzboss.com/",
     member: [0, 2, 3, 4],
   },
   {
