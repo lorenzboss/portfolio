@@ -1,5 +1,17 @@
 export const projects = [
   {
+    title: "Spotify API",
+    date: "Apr 2025 - Jul 2025",
+    description:
+      "I built a simple web app using Next.js and HeroUI that connects to the Spotify Web API. Users can search for artists and explore their albums and singles in a clean, responsive interface. The goal was to create a fast and intuitive way to browse music data directly from Spotify.",
+    image: "/images/projects/spotify-api.png",
+    tags: ["Next.js", "Spotify Web API", "Hero UI"],
+    category: "web app",
+    github: "https://github.com/lorenzboss/spotify",
+    webapp: "https://spotify.lorenzboss.com/",
+    member: [0],
+  },
+  {
     title: "Rate Mate",
     date: "May 2025 - Jun 2025",
     description:
