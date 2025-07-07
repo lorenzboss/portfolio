@@ -22,4 +22,4 @@ To run this portfolio locally, follow these steps:
 
 # Images
 
-The Images of the projects have a 290*180 resolution or about a 5*3 resolution.
+The Images of the projects have a 290 by 180 resolution or about a 5 by 3 resolution.
