@@ -83,6 +83,11 @@ const Footer = () => {
           </Link>{" "}
           | {currentYear} Lorenz Boss
         </Copyright>
+        <p>
+          <Link target="_blank" href="https://github.com/lorenzboss/portfolio">
+            Source code available on GitHub
+          </Link>{" "}
+        </p>
       </FooterWrapper>
     </FooterContainer>
   );
