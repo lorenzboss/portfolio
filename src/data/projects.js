@@ -1,5 +1,16 @@
 export const projects = [
   {
+    title: "Online Memory Game",
+    date: "Sep 2025 - Oct 2025",
+    description:
+      "This project is a distributed multiplayer memory game built with Dockerized microservices communicating via HTTP, WebSockets, PostgreSQL, and MQTT. It features real-time gameplay, user authentication, and event-driven updates for stats and logs. The system includes dedicated services for game logic, statistics, logging, and authentication.",
+    image: "/images/projects/online-memory-game.jpeg",
+    tags: ["Microservices", "Docker Compose", "React", "Node.js", "Express"],
+    category: "web app",
+    github: "https://github.com/BBZ-BL-IT/lb2-projektarbeit-coop-team",
+    member: [0, 2, 4],
+  },
+  {
     title: "Repetify",
     date: "Sep 2025",
     description:
@@ -9,18 +20,6 @@ export const projects = [
     category: "web app",
     github: "https://github.com/lorenzboss/m223_repetify",
     webapp: "https://repetify.lorenzboss.com/",
-    member: [0],
-  },
-  {
-    title: "Spotify API",
-    date: "Apr 2025 - Jul 2025",
-    description:
-      "I built a simple web app using Next.js and HeroUI that connects to the Spotify Web API. Users can search for artists and explore their albums and singles in a clean, responsive interface. The goal was to create a fast and intuitive way to browse music data directly from Spotify.",
-    image: "/images/projects/spotify-api.jpeg",
-    tags: ["Next.js", "Spotify Web API", "Hero UI"],
-    category: "web app",
-    github: "https://github.com/lorenzboss/spotify",
-    webapp: "https://spotify.lorenzboss.com/",
     member: [0],
   },
   {
@@ -34,6 +33,18 @@ export const projects = [
     github: "https://github.com/lorenzboss/m306_rate-mate",
     webapp: "https://ratemate.lorenzboss.com/",
     member: [0, 2, 5],
+  },
+  {
+    title: "Spotify API",
+    date: "Apr 2025 - Jul 2025",
+    description:
+      "I built a simple web app using Next.js and HeroUI that connects to the Spotify Web API. Users can search for artists and explore their albums and singles in a clean, responsive interface. The goal was to create a fast and intuitive way to browse music data directly from Spotify.",
+    image: "/images/projects/spotify-api.jpeg",
+    tags: ["Next.js", "Spotify Web API", "Hero UI"],
+    category: "web app",
+    github: "https://github.com/lorenzboss/spotify",
+    webapp: "https://spotify.lorenzboss.com/",
+    member: [0],
   },
   {
     title: "r/place",
