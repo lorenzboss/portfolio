@@ -1,5 +1,17 @@
 export const projects = [
   {
+    title: "Repetify",
+    date: "Sep 2025",
+    description:
+      "Repetify is a modern vocabulary trainer built with Ruby on Rails. Users can create, edit, delete, and study vocabulary. The application features a Bootstrap-based design, user authentication and management, as well as a version history powered by PaperTrail.",
+    image: "/images/projects/repetify.png",
+    tags: ["Ruby on Rails", "PostgreSQL", "Devise", "Bootstrap"],
+    category: "web app",
+    github: "https://github.com/lorenzboss/m223_repetify",
+    webapp: "https://repetify.lorenzboss.com/",
+    member: [0],
+  },
+  {
     title: "Spotify API",
     date: "Apr 2025 - Jul 2025",
     description:
