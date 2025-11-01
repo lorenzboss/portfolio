@@ -60,7 +60,7 @@ export const experiences = [
     role: "ICTskills2025 Web Development",
     company: "SwissSkills | ICT Berufsbildung",
     date: "Sep 2025",
-    desc: "I'm excited to have qualified for ICTskills2025 this September, where I can put my web development experience to the test!",
-    skills: ["Web Development"],
+    desc: "I took part in ICTskills2025 in Bern after qualifying through the regional championships. Competing against the best ICT apprentices from all over Switzerland, I showcased my web development skills and gained valuable experience.",
+    skills: ["Web Development", "Problem Solving", "Time Management"],
   },
 ];
