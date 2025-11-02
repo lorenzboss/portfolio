@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "0.1.1",
-  "homepage": "https://lorenzboss.com",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
@@ -11,35 +10,53 @@
     "@mui/material": "^5.15.21",
     "@react-three/drei": "^9.109.2",
     "@react-three/fiber": "^8.16.8",
-    "@svgr/webpack": "^8.1.0",
     "framer-motion": "^11.3.19",
-    "postcss": "^8.4.40",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.25.1",
-    "react-scripts": "^5.0.1",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
     "styled-components": "^6.1.12",
     "three": "^0.167.1",
-    "typewriter-effect": "^2.21.0",
-    "webpack": "^5.93.0",
-    "webpack-dev-server": "^5.0.4"
+    "typewriter-effect": "^2.21.0"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "lint": "eslint src/**/*.{js,jsx}"
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+      "eslint:recommended",
+      "plugin:react/recommended",
+      "plugin:react-hooks/recommended"
+    ],
+    "plugins": [
+      "react-refresh"
+    ],
+    "rules": {
+      "react-refresh/only-export-components": "warn",
+      "react/prop-types": "off",
+      "react/react-in-jsx-scope": "off"
+    },
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module",
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    },
+    "env": {
+      "browser": true,
+      "es2021": true,
+      "node": true
+    },
+    "settings": {
+      "react": {
+        "version": "detect"
+      }
+    }
   },
   "browserslist": {
     "production": [
@@ -54,11 +71,12 @@
     ]
   },
   "devDependencies": {
-    "eslint-config-react-app": "^7.0.1",
-    "gh-pages": "^6.1.1"
-  },
-  "overrides": {
-    "nth-check": ">=2.0.1",
-    "@svgr/webpack": "^8.1.0"
+    "@vitejs/plugin-react": "^5.1.0",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "vite": "^7.1.12",
+    "vite-plugin-svgr": "^4.5.0"
   }
 }
