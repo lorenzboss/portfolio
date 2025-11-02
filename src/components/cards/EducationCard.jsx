@@ -1,4 +1,3 @@
-import React from "react";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import styled from "styled-components";
 
@@ -41,7 +40,7 @@ const Degree = styled.div`
     font-size: 12px;
   }
 `;
-const Date = styled.div`
+const Location = styled.div`
   font-size: 12px;
   font-weight: 400px;
   color: ${({ theme }) => theme.text_secondary + 80};
@@ -105,7 +104,7 @@ const EducationCard = ({ education }) => {
         <Body>
           <Name>{education.school}</Name>
           <Degree>{education.degree}</Degree>
-          <Date>{education.date}</Date>
+          <Location>{education.location}</Location>
         </Body>
       </Top>
       <Grade>
