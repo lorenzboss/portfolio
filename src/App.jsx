@@ -1,3 +1,5 @@
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 import { AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
@@ -57,7 +59,6 @@ function App() {
                 <Contact />
               </Wrapper>
               <Footer />
-
               {openModal.state && (
                 <ProjectDetails
                   openModal={openModal}
@@ -67,6 +68,8 @@ function App() {
             </div>
           </AnimatePresence>
         </Body>
+        <Analytics />
+        <SpeedInsights />
       </BrowserRouter>
     </ThemeProvider>
   );
