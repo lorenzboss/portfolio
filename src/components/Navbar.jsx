@@ -85,7 +85,7 @@ const MobileMenu = styled.ul`
   right: 0;
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
-
+  background-color: rgba(0, 0, 0, 0.8);
   transition: all 0.6s ease-in-out;
   transform: ${({ isOpen }) =>
     isOpen ? "translateY(0)" : "translateY(-100%)"};
