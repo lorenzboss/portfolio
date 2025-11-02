@@ -20,6 +20,10 @@ To run this portfolio locally, follow these steps:
 4. Start the development server: `npm start`
 5. Open your browser and visit: `http://localhost:3000`
 
-# Images
+## Images
 
 The Images of the projects have a 290 by 180 resolution or about a 5 by 3 resolution.
+
+## Credits
+
+Huge thanks to [Rishav Chanda](https://github.com/rishavchanda) for his [original portfolio design](https://github.com/rishavchanda/rishavchanda-old-portfolio) which is the foundation of this project.
