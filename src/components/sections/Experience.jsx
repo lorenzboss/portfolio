@@ -1,4 +1,3 @@
-import React from "react";
 import { VerticalTimeline } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import styled from "styled-components";
@@ -60,8 +59,8 @@ const Experience = () => {
             marginBottom: "40px",
           }}
         >
-          My work experience as a software engineer and working on different
-          companies and projects.
+          This is my work experience as a software developer, working with
+          different companies and tackling various challenges.{" "}
         </Desc>
 
         <VerticalTimeline>

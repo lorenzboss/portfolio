@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import styled from "styled-components";
 import { projects } from "../../data/projects";
 import ProjectCard from "../cards/ProjectCard";
@@ -104,8 +104,8 @@ const Projects = ({ openModal, setOpenModal }) => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          I have worked on a wide range of projects, from web and mobile to
+          purely console-based apps.
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
