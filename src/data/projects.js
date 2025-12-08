@@ -1,6 +1,25 @@
 export const projects = [
   {
-    title: "Online Memory Game",
+    title: "Mind Link",
+    date: "Dec 2025",
+    description:
+      "We initially built this project as a multi-dockerized setup to explore and learn distributed microservices architecture. After successfully implementing the core features, we deployed the application and had to simplify it significantly for production. The final deployment uses only 2 containers (frontend and backend) with Neon DB as the database. We implemented custom authentication with bcrypt and maintained WebSocket functionality for real-time features. The backend is deployed on DigitalOcean App Platform, while the frontend runs on Vercel.",
+    image: "/images/projects/mind-link.png",
+    tags: [
+      "Vite",
+      "Express.js",
+      "Neon DB",
+      "WebSockets",
+      "DigitalOcean",
+      "Vercel",
+    ],
+    category: "web app",
+    github: "https://github.com/lorenzboss/m321_memory",
+    webapp: "https://memory.lorenzboss.com/",
+    member: [0],
+  },
+  {
+    title: "Memoriq",
     date: "Sep 2025 - Oct 2025",
     description:
       "This project is a distributed multiplayer memory game built with Dockerized microservices communicating via HTTP, WebSockets, PostgreSQL, and MQTT. It features real-time gameplay, user authentication, and event-driven updates for stats and logs. The system includes dedicated services for game logic, statistics, logging, and authentication.",
