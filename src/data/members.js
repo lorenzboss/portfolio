@@ -37,8 +37,20 @@ export const members = [
   {
     id: 5,
     name: "Seth Schmutz",
-    img: "/images/members/avatar.jpeg",
+    img: "/images/members/avatar-4.svg",
     linkedin: "https://www.linkedin.com/in/seth-schmutz-294ba025a/",
     github: "https://github.com/BrickiBulli",
+  },
+  {
+    id: 6,
+    name: "Joshua Kunz",
+    img: "/images/members/avatar-2.svg",
+    github: "https://github.com/jokudev",
+  },
+  {
+    id: 7,
+    name: "Simon Fäs",
+    img: "/images/members/avatar-3.svg",
+    github: "https://github.com/simiAtschool",
   },
 ];

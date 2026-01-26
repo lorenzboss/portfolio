@@ -92,8 +92,8 @@ const Avatar = styled.img`
   object-fit: cover;
   border-radius: 50%;
   margin-left: -10px;
-  background-color: ${({ theme }) => theme.white};
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background-color: #171721;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
   border: 3px solid ${({ theme }) => theme.card};
 `;
 
