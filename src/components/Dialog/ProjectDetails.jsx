@@ -219,20 +219,24 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
                       alt={members[memberId].name}
                     />
                     <MemberName>{members[memberId].name}</MemberName>
-                    <a
-                      href={members[memberId].github}
-                      target="_blank"
-                      style={{ textDecoration: "none", color: "inherit" }}
-                    >
-                      <GitHub />
-                    </a>
-                    <a
-                      href={members[memberId].linkedin}
-                      target="_blank"
-                      style={{ textDecoration: "none", color: "inherit" }}
-                    >
-                      <LinkedIn />
-                    </a>
+                    {members[memberId].github && (
+                      <a
+                        href={members[memberId].github}
+                        target="_blank"
+                        style={{ textDecoration: "none", color: "inherit" }}
+                      >
+                        <GitHub />
+                      </a>
+                    )}
+                    {members[memberId].linkedin && (
+                      <a
+                        href={members[memberId].linkedin}
+                        target="_blank"
+                        style={{ textDecoration: "none", color: "inherit" }}
+                      >
+                        <LinkedIn />
+                      </a>
+                    )}
                   </Member>
                 ))}
               </Members>
