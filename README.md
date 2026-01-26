@@ -33,3 +33,5 @@ To convert images to the AVIF format, use the following script:
 ```bash
 ./to-avif.sh public/images/projects/FILE.png
 ```
+
+Cool avatar SVGs: https://www.svgrepo.com/collection/inclusive-avatar-portrait-vectors/
