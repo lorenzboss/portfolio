@@ -1,10 +1,21 @@
 export const projects = [
   {
-    title: "Mind Link",
+    title: "Snake Game",
+    date: "Nov 2025 - Jan 2026",
+    description:
+      "A classic Snake Game developed as part of a DevOps-focused module. The project features a React frontend and a Quarkus-based Java backend with an SQLite database to manage a daily leaderboard. We implemented a complete CI/CD pipeline using GitHub Actions for automated linting, testing, and multi-stage Docker builds. The infrastructure is managed as code using Terraform to provision AWS resources, and the application is deployed using Kamal.",
+    image: "/images/projects/snake-game-324.avif",
+    tags: ["React", "Quarkus", "Java", "Terraform", "AWS", "Kamal", "Docker"],
+    category: "web app",
+    github: "https://github.com/bbzbl-it-joku/Module324",
+    member: [0, 1, 6, 7],
+  },
+  {
+    title: "Convex Memory",
     date: "Dec 2025",
     description:
       "We initially built this project as a multi-dockerized setup to explore and learn distributed microservices architecture. After successfully implementing the core features, we deployed the application and had to simplify it significantly for production. The final deployment uses only 2 containers (frontend and backend) with Neon DB as the database. We implemented custom authentication with bcrypt and maintained WebSocket functionality for real-time features. The backend is deployed on DigitalOcean App Platform, while the frontend runs on Vercel.",
-    image: "/images/projects/mind-link.png",
+    image: "/images/projects/mind-link.avif",
     tags: [
       "Vite",
       "Express.js",
@@ -23,7 +34,7 @@ export const projects = [
     date: "Sep 2025 - Oct 2025",
     description:
       "This project is a distributed multiplayer memory game built with Dockerized microservices communicating via HTTP, WebSockets, PostgreSQL, and MQTT. It features real-time gameplay, user authentication, and event-driven updates for stats and logs. The system includes dedicated services for game logic, statistics, logging, and authentication.",
-    image: "/images/projects/online-memory-game.jpeg",
+    image: "/images/projects/online-memory-game.avif",
     tags: ["Microservices", "Docker Compose", "React", "Node.js", "Express"],
     category: "web app",
     github: "https://github.com/BBZ-BL-IT/lb2-projektarbeit-coop-team",
@@ -34,7 +45,7 @@ export const projects = [
     date: "Sep 2025",
     description:
       "Repetify is a modern vocabulary trainer built with Ruby on Rails. Users can create, edit, delete, and study vocabulary. The application features a Bootstrap-based design, user authentication and management, as well as a version history powered by PaperTrail.",
-    image: "/images/projects/repetify.png",
+    image: "/images/projects/repetify.avif",
     tags: ["Ruby on Rails", "PostgreSQL", "Devise", "Bootstrap"],
     category: "web app",
     github: "https://github.com/lorenzboss/m223_repetify",
@@ -46,7 +57,7 @@ export const projects = [
     date: "May 2025 - Jun 2025",
     description:
       "We built Rate Mate (R8M8), a simple web app where employees rate each other based on criteria set by their team lead. Reviews can include comments, be anonymous, and give team leads a clear view of all feedback.",
-    image: "/images/projects/rate-mate.jpeg",
+    image: "/images/projects/rate-mate.avif",
     tags: ["Next.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
     category: "web app",
     github: "https://github.com/lorenzboss/m306_rate-mate",
@@ -58,7 +69,7 @@ export const projects = [
     date: "Apr 2025 - Jul 2025",
     description:
       "I built a simple web app using Next.js and HeroUI that connects to the Spotify Web API. Users can search for artists and explore their albums and singles in a clean, responsive interface. The goal was to create a fast and intuitive way to browse music data directly from Spotify.",
-    image: "/images/projects/spotify-api.jpeg",
+    image: "/images/projects/spotify-api.avif",
     tags: ["Next.js", "Spotify Web API", "Hero UI"],
     category: "web app",
     github: "https://github.com/lorenzboss/spotify",
@@ -70,7 +81,7 @@ export const projects = [
     date: "Jun 2024 - Jul 2024",
     description:
       "We created a web application inspired by Reddit's r/place event, where users can place pixels on a canvas. Unlike r/place, our app allows you to place a pixel every 10 seconds instead of waiting 5 minutes. Built with Next.js, the app leverages Supabase for real-time features and easy user authentication. ",
-    image: "/images/projects/r-place.png",
+    image: "/images/projects/r-place.avif",
     tags: ["Next.js", "Supabase", "Tailwind CSS", "Node.js"],
     category: "web app",
     github: "https://github.com/BBZ-BL-IT/m426-project-r-place",
@@ -82,7 +93,7 @@ export const projects = [
     date: "Dec 2024",
     description:
       "Gym Tracker is a simple application to help you keep track of your workouts, monitor your progress, and achieve your fitness goals. It was built using Ionic and Capacitor, providing a seamless cross-platform experience for users.",
-    image: "/images/projects/gym-tracker.png",
+    image: "/images/projects/gym-tracker.avif",
     tags: ["Angular", "Ionic", "Capacitor"],
     category: "mobile app",
     github: "https://github.com/lorenzboss/m335_gym-tracker",
@@ -93,7 +104,7 @@ export const projects = [
     date: "Jan 2025 - Apr 2025",
     description:
       "I created a mobile app using React Native and Expo to make learning Pi both easy and enjoyable. The app emphasizes a clean, visually appealing UI and ensures an intuitive user experience, making the learning process more engaging and accessible.",
-    image: "/images/projects/pi-genius.png",
+    image: "/images/projects/pi-genius.avif",
     tags: ["React Native", "Expo"],
     category: "mobile app",
     github: "https://github.com/lorenzboss/pi-genius",
@@ -104,7 +115,7 @@ export const projects = [
     date: "Apr 2024 - May 2024",
     description:
       "I developed a CRUD web application using Angular, Spring Boot, Java, and Keycloak. The app allows users to create podcasts, artists, and topics, while also providing user management and a role-based access control system.",
-    image: "/images/projects/pod-controller.jpeg",
+    image: "/images/projects/pod-controller.avif",
     tags: ["TypeScript", "Angular", "Java", "Spring Boot", "Maven", "Keycloak"],
     category: "web app",
     github: "https://github.com/lorenzboss/m183_podcastmanager_frontend",
@@ -115,7 +126,7 @@ export const projects = [
     date: "Oct 2024",
     description:
       "This project analyzes data from 335 real estate sales in Basel-Landschaft (2011–2023). The logic was implemented both imperatively and functionally to compare the two approaches. Despite being a console app, it offers good user-friendliness and simple controls.",
-    image: "/images/projects/properties-comparator.jpeg",
+    image: "/images/projects/properties-comparator.avif",
     tags: ["Java", "JSON", "GSON", "Functional programming"],
     category: "application",
     github: "https://github.com/lorenzboss/m323_immobilien-vergleich",
@@ -126,7 +137,7 @@ export const projects = [
     date: "Dec 2024 - Jan 2025",
     description:
       "This project analyzes and compares the performance and memory usage of popular sorting algorithms in Python, including Bubble Sort, Quick Sort, and Cocktail Shaker Sort. It tests execution time on random lists and tracks memory usage during sorting. Additionally, We implemented multiple GitHub Actions and CI workflows for automated testing.",
-    image: "/images/projects/python-algorithms-performance.jpeg",
+    image: "/images/projects/python-algorithms-performance.avif",
     tags: ["Python", "Github Actions", "CI"],
     category: "application",
     github: "https://github.com/lorenzboss/m450_LB3-algorithms-performance",
@@ -137,7 +148,7 @@ export const projects = [
     date: "Apr 2024 - May 2024",
     description:
       "As part of the App Run (see experience), I developed a Magnet Detector app using Kotlin and Jetpack Compose. The app measures the current magnetic field and displays the readings in real time. Additionally, it features a QR code scanner, allowing users to easily scan and access information directly from codes.",
-    image: "/images/projects/no-preview.png",
+    image: "/images/projects/no-preview.avif",
     tags: ["Kotlin", "Jetpack Compose", "Android APIs"],
     category: "mobile app",
     github: "https://github.com/lorenzboss/ar_magnetDetector",
@@ -148,7 +159,7 @@ export const projects = [
     date: "May 2024",
     description:
       "As part of the App Run (see experience), I developed a Treasure Map app using Kotlin and Jetpack Compose. The app allows users to view their current location on a map and place pins at specific spots. Users can later remove these pins and view the coordinates associated with each one. I integrated osmdroid and OpenStreetMap to build the map functionality, ensuring an intuitive and seamless user experience.",
-    image: "/images/projects/no-preview.png",
+    image: "/images/projects/no-preview.avif",
     tags: ["Kotlin", "Jetpack Compose", "Android APIs", "OpenStreetMap"],
     category: "mobile app",
     github: "https://github.com/lorenzboss/ar_treasureMap",
@@ -159,7 +170,7 @@ export const projects = [
     date: "May 2024 - Jun 204",
     description:
       "As part of the App Run (see experience), I developed a Pixel Painter app using Kotlin and Jetpack Compose. The app allows users to draw individual pixels on a small canvas, creating custom images. Once the artwork is complete, users can send their creations to a server through a LogBook app, enabling easy sharing of their designs.",
-    image: "/images/projects/no-preview.png",
+    image: "/images/projects/no-preview.avif",
     tags: ["Kotlin", "Jetpack Compose"],
     category: "mobile app",
     github: "https://github.com/lorenzboss/ar_pixelPainter",
@@ -170,7 +181,7 @@ export const projects = [
     date: "Jun 2023 - Apr 2024",
     description:
       "The first project I ever created was a Harry Potter wiki featuring the most important characters. The website was built entirely without a framework, using only HTML, CSS, and JavaScript, and was designed to be fully responsive. Later, I deployed and published the site using GitHub Pages.",
-    image: "/images/projects/harry-potter-wiki.jpeg",
+    image: "/images/projects/harry-potter-wiki.avif",
     tags: ["HTML", "CSS", "JavaScript", "GitHub Pages"],
     category: "web app",
     github: "https://github.com/lorenzboss/m293_wiki",
