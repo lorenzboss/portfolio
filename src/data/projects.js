@@ -1,33 +1,45 @@
 export const projects = [
+  // {
+  //   title: "Convex Memory",
+  //   date: "Dec 2025",
+  //   description:
+  //     "We initially built this project as a multi-dockerized setup to explore and learn distributed microservices architecture. After successfully implementing the core features, we deployed the application and had to simplify it significantly for production. The final deployment uses only 2 containers (frontend and backend) with Neon DB as the database. We implemented custom authentication with bcrypt and maintained WebSocket functionality for real-time features. The backend is deployed on DigitalOcean App Platform, while the frontend runs on Vercel.",
+  //   image: "/images/projects/mind-link.avif",
+  //   tags: [
+  //     "Vite",
+  //     "Express.js",
+  //     "Neon DB",
+  //     "WebSockets",
+  //     "DigitalOcean",
+  //     "Vercel",
+  //   ],
+  //   category: "web app",
+  //   github: "https://github.com/lorenzboss/m321_memory",
+  //   webapp: "https://memory.lorenzboss.com/",
+  //   member: [0],
+  // },
+  {
+    title: "Snake Game Convex",
+    date: "Jan 2026",
+    description:
+      "A reworked version of the original Snake Game with a completely new backend architecture. The former Java/Quarkus backend was replaced by Convex, integrating backend logic, database, and realtime functionality directly into the project. The application is deployed on Vercel and optimized for mobile devices, including touch controls, making the game fully playable on smartphones. The leaderboard is managed in real time.",
+    image: "/images/projects/snake-game.avif",
+    tags: ["React", "Convex", "Vercel", "Realtime", "Mobile"],
+    category: "web app",
+    github: "https://github.com/lorenzboss/snake",
+    webapp: "https://snake.bbzbl.dev/",
+    member: [0],
+  },
   {
     title: "Snake Game",
     date: "Nov 2025 - Jan 2026",
     description:
-      "A classic Snake Game developed as part of a DevOps-focused module. The project features a React frontend and a Quarkus-based Java backend with an SQLite database to manage a daily leaderboard. We implemented a complete CI/CD pipeline using GitHub Actions for automated linting, testing, and multi-stage Docker builds. The infrastructure is managed as code using Terraform to provision AWS resources, and the application is deployed using Kamal.",
+      "A classic Snake Game developed as part of a DevOps-focused module. The project features a React frontend and a Quarkus-based Java backend with an SQLite database to manage the leaderboard. We implemented a complete CI/CD pipeline using GitHub Actions for automated linting, testing, and multi-stage Docker builds. The infrastructure is managed as code using Terraform to provision AWS resources, and the application is deployed using Kamal.",
     image: "/images/projects/snake-game-324.avif",
     tags: ["React", "Quarkus", "Java", "Terraform", "AWS", "Kamal", "Docker"],
     category: "web app",
     github: "https://github.com/bbzbl-it-joku/Module324",
     member: [0, 1, 6, 7],
-  },
-  {
-    title: "Convex Memory",
-    date: "Dec 2025",
-    description:
-      "We initially built this project as a multi-dockerized setup to explore and learn distributed microservices architecture. After successfully implementing the core features, we deployed the application and had to simplify it significantly for production. The final deployment uses only 2 containers (frontend and backend) with Neon DB as the database. We implemented custom authentication with bcrypt and maintained WebSocket functionality for real-time features. The backend is deployed on DigitalOcean App Platform, while the frontend runs on Vercel.",
-    image: "/images/projects/mind-link.avif",
-    tags: [
-      "Vite",
-      "Express.js",
-      "Neon DB",
-      "WebSockets",
-      "DigitalOcean",
-      "Vercel",
-    ],
-    category: "web app",
-    github: "https://github.com/lorenzboss/m321_memory",
-    webapp: "https://memory.lorenzboss.com/",
-    member: [0],
   },
   {
     title: "Memoriq",
