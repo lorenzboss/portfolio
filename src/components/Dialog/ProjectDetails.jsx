@@ -15,6 +15,7 @@ const Container = styled.div`
   justify-content: center;
   overflow-y: scroll;
   transition: all 0.5s ease;
+  outline: none;
 `;
 
 const Wrapper = styled.div`
@@ -187,8 +188,18 @@ const ProjectDetails = ({ openModal, setOpenModal }) => {
     <Modal
       open={true}
       onClose={() => setOpenModal({ state: false, project: null })}
+      slotProps={{
+        backdrop: {
+          style: { backgroundColor: "transparent" },
+        },
+      }}
     >
-      <Container>
+      <Container
+        onClick={(e) =>
+          e.target === e.currentTarget &&
+          setOpenModal({ state: false, project: null })
+        }
+      >
         <Wrapper>
           <CloseRounded
             style={{
