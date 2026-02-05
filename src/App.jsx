@@ -1,6 +1,5 @@
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/react";
-import { AnimatePresence } from "framer-motion";
 import { useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 import styled, { ThemeProvider } from "styled-components";
@@ -15,7 +14,7 @@ import Projects from "./components/sections/Projects";
 import Skills from "./components/sections/Skills";
 import { darkTheme } from "./utils/Themes";
 
-const Body = styled.div`
+const Main = styled.main`
   background-color: ${({ theme }) => theme.bg};
   width: 100%;
   overflow-x: hidden;
@@ -45,29 +44,22 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <BrowserRouter>
         <Navbar />
-        <Body>
-          <AnimatePresence>
-            <div>
-              <Hero />
-              <Wrapper>
-                <Skills />
-                <Experience />
-              </Wrapper>
-              <Projects openModal={openModal} setOpenModal={setOpenModal} />
-              <Wrapper>
-                <Education />
-                <Contact />
-              </Wrapper>
-              <Footer />
-              {openModal.state && (
-                <ProjectDetails
-                  openModal={openModal}
-                  setOpenModal={setOpenModal}
-                />
-              )}
-            </div>
-          </AnimatePresence>
-        </Body>
+        <Main>
+          <Hero />
+          <Wrapper>
+            <Skills />
+            <Experience />
+          </Wrapper>
+          <Projects openModal={openModal} setOpenModal={setOpenModal} />
+          <Wrapper>
+            <Education />
+            <Contact />
+          </Wrapper>
+          <Footer />
+          {openModal.state && (
+            <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
+          )}
+        </Main>
         <Analytics />
         <SpeedInsights />
       </BrowserRouter>

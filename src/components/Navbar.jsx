@@ -2,7 +2,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import { Bio } from "../data/bio";
 
-const Nav = styled.div`
+const Nav = styled.nav`
   background-color: ${({ theme }) => theme.bg};
   height: 80px;
   display: flex;
