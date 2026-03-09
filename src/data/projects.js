@@ -1,4 +1,16 @@
 export const projects = [
+  {
+    title: "SneakPeek",
+    date: "Feb 2026 - Mar 2026",
+    description:
+      "SneakPeek is a rating platform where users can upload sneakers, rate them in detail, and view the opinions of others. The application was developed with Next.js, Convex, and WorkOS.",
+    image: "/images/projects/sneak-peek.avif",
+    tags: ["Convex", "WorkOS", "React", "Vercel"],
+    category: "web app",
+    github: "https://github.com/lorenzboss/m245_sneakpeek",
+    webapp: "https://sneakpeek.bbzbl.dev/",
+    member: [0, 1],
+  },
   // {
   //   title: "Convex Memory",
   //   date: "Dec 2025",
