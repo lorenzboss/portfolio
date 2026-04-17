@@ -4,7 +4,7 @@ export const projects = [
     date: "Apr 2026",
     description:
       "I built vii.sh, an intuitive time calculator with Next.js, because no good online solution existed. Enter times as 1:30 (1h 30min) or 1:30:45 (with seconds), use +, -, *, / for calculations, and group expressions with parentheses. Reference any previous result with #1, #2, etc. Every line is evaluated live as you type, and a running total at the bottom sums all time values.",
-    image: "/images/projects/vii-calculator.png",
+    image: "/images/projects/vii-calculator.avif",
     tags: ["Next.js", "TypeScript"],
     category: "web app",
     github: "https://github.com/lorenzboss/vii-calculator",
