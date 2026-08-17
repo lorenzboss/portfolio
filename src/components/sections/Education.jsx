@@ -59,7 +59,7 @@ const Education = () => {
             marginBottom: "40px",
           }}
         >
-          Here is an overview of my educational background.
+          Here is an overview of my educational background (Swiss grading scale: 1-6, best: 6).
         </Desc>
 
         <VerticalTimeline>
