@@ -21,6 +21,6 @@ export const education = [
     location: "Holbein Basel, Switzerland",
     date: "Aug 2019 - Jul 2022",
     desc: "I graduated from Holbein Secondary School at the highest level (Niveau P) with a focus on STEM subjects, building a strong foundation in mathematics, science, and technology.",
-    grade: "5.3 (Swiss grading scale: 1–6, best: 6)",
+    grade: "5.3",
   },
 ];
